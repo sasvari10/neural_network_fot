@@ -11,3 +11,4 @@ WGR2H   ; REAL[22]; Contains the weights between the global radiation (2nd layer
 WH2PO   ; REAL[22]; Contains the weights between the 3rd layer's hidden neurons and the output neuron. (Whose output is the PV panel's output power.)
 
 See the stucture of the network, to understand the TAGs!
+You can find it in the neural_network_structure.docx file.
