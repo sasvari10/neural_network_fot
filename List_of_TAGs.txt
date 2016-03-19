@@ -1,0 +1,11 @@
+This file contains the necessary TAGs.
+You have to define these TAGs in your Citect project, not in your CiCode files!
+
+TAG name; TAG type; TAG description
+WT2PT   ; REAL[12]; Contains the weights between the time (input) and panel temperature (2nd layer's 1st output).
+WT2AT   ; REAL[12]; Contains the weights between the time (input) and ambient temperature (2nd layer's 2nd output).
+WT2GR   ; REAL[12]; Contains the weights between the time (input) and global radiation (2nd layer's 3rd output).
+WPT2H   ; REAL[22]; Contains the weights between the panel temperature (2nd layer's 1st output) and 3rd layer's hidden neurons.
+WAT2H   ; REAL[22]; Contains the weights between the ambient temperature (2nd layer's 2nd output) and 3rd layer's hidden neurons.
+WGR2H   ; REAL[22]; Contains the weights between the global radiation (2nd layer's 3rd output) and 3rd layer's hidden neurons.
+WH2PO   ; REAL[22]; Contains the weights between the 3rd layer's hidden neurons and the output neuron. (Whose output is the PV panel's output power.)
