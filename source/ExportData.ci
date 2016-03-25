@@ -1,1 +1,7 @@
-//test
+// This CiCode file contains the data exporting functions
+// We export the 15min. average global radiation, ambient temperature, PV panel temperature and PV panel output power data for the last 30 days
+// We will use the last 3 days to learn the relations between the time and the weather data,
+// and the last 30 days to learn the relation between the weather and the output power
+// We will also periodically update these files at 23:55 every day.
+
+
